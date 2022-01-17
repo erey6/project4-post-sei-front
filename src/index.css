@@ -1,43 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+   
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Titillium+Web&display=swap');
 
 body {
     margin: 0;
     border-radius: 3px;
-    font-family: 'Oxygen', sans-serif;
-    background: beige;
+    font-family: 'Titillium Web', sans-serif;
+    background: white;
 }
 
 button {
     font-family: 'Oxygen', sans-serif;
-    background: darkslategray;
+    background: #fff;
     border-radius: 3px;
     border: none;
-    width: 7vw;
+    width: 50%;
     height: 3vh;
     color: white;
 }
 
 .smallContainer {
     margin: 2%;
+   
 }
 
 .headerDiv {
     box-sizing: border-box;
-    border: 1px solid black;
     text-align: center;
-    padding: 4%;
-    background: darkslategray;
-    color: white;
-    margin-top: 2%;
+    padding: 3%;
+    color: #FE6C02;
+    margin-top: 1%;
+    font-family: 'Oxygen', sans-serif;
 
+    font-weight: bolder;
+    font-size: 130%;
+    
 }
 
 .nav {
     display: flex;
-    padding: 2%;
-    background: darkslategray;
+    background-color: #FE6C02;
     margin-top: 2%;
-    padding-bottom: 4%;
+    padding: 3%;
+   
 }
 
 .userNav {
@@ -49,7 +54,16 @@ button {
 }
 
 .greetUser {
-    color: white;
+    color: #444444;
+}
+
+.SignContainer{
+  display: flex;
+  flex-direction:
+}
+
+.logContainer{
+  width: 158px
 }
 
 .logOutBtn {
@@ -57,44 +71,63 @@ button {
     background: gainsboro;
     color: black;
     height: 4vh;
-    width: 10vw;
+    width: 10vh;
     margin-left: 2%;
+    cursor: pointer
+}
+
+.logOutBtn:hover{
+  background-color: #444444;
+  color: #fff
+}
+
+.LoginDrop:hover{
+  font-weight: bolder;
+}
+
+.Createbt:hover{
+  font-weight: bolder;
 }
 
 .noUserNav {
-    color: white;
+    color: #fff;
     display: flex;
     width: 35%;
-    justify-content: space-between;
+    height: 50%;
+    gap: 9vw;
+    font-weight: bolder;
 }
 
-.registerBtn {
-    border-radius: 3px;
-    background: gainsboro;
-    border: none;
-    width: 10vw;
-    height: 4vh;
-    margin-top: 2%;
+.noUserNav input {
+    padding: 4.5px;
+    margin-top: 1em;
 }
 
-.loginBtn {
+.registerBtn, .loginBtn {
     border-radius: 3px;
-    background: gainsboro;
     border: none;
-    width: 10vw;
-    height: 4vh;
-    margin-top: 2%;
+    width: 50%;
+    height: 2rem;
+    margin-top: 1em;
+    cursor: pointer;
+    background-color: #444444;
+    color: #fff
 }
 
 .calories {
     text-align: center;
-    background: darkslategray;
+    background: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #444444;
     height: 70vh;
+    border-radius: 20px
+}
+
+.Calsentr{
+  margin-left: 1.8vh
 }
 
 .barChart {
@@ -105,16 +138,17 @@ button {
 
 .entries {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 32% 32% 32%;
     justify-content: space-between;
     margin-bottom: 2%;
 }
 
 .entry {
-    background: darkslategray;
+    background: rgb(238, 234, 234);
     padding-left: 2.5%;
     margin-top: 8%;
-    color: white;
+    color: #444444;
+    
 }
 
 .entryName {
@@ -122,8 +156,14 @@ button {
 }
 
 .imgOne {
-    width: 30vw;
-    height: 40vh;
+    max-width: 26.8vw;
+    max-height: 26.8vh;
+}
+
+.imgCont{
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .add {
@@ -135,15 +175,21 @@ button {
 .addBtn {
     border: none;
     border-radius: 3px;
-    background: darkslategray;
+    background: #fff;
     margin-top: 2%;
     margin-bottom: 2%;
     width: 30vw;
     height: 3vh;
+    cursor: pointer
+}
+
+.addBtn:hover{
+  background-color: gainsboro;
+  color: #fff
 }
 
 .addComp {
-    background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.4);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -175,11 +221,17 @@ button {
 .searchBtn {
     border: none;
     border-radius: 3px;
-    background: darkslategray;
+    background: #fff;
     color: white;
     height: 3vh;
-    width: 10vw;
+    width: 50%;
     margin-top: 3%;
+    cursor: pointer
+}
+
+.searchBtn:hover{
+  background-color: white;
+  color: #fff;
 }
 
 .calSearch {
@@ -188,7 +240,7 @@ button {
     border: 1px solid black;
     width: 50%;
     padding: 2%;
-    background: darkslategray;
+    background: #fff;
     color: white;
 }
 
@@ -208,21 +260,33 @@ button {
 .addSubmit {
     border: none;
     border-radius: 3px;
-    background: darkslategray;
+    background: #fff;
     color: white;
     height: 3vh;
-    width: 10vw;
+    width: 50%;
+    cursor: pointer
+}
+
+.addSubmit:hover{
+  background-color: white;
+  color: #fff
 }
 
 .addClose {
     border: none;
     border-radius: 3px;
-    background: darkslategray;
-    width: 10vw;
+    background: #fff;
+    width: 50%;
     height: 3vh;
     position: absolute;
     left: 45%;
     bottom: 10%;
+    cursor: pointer;
+}
+
+.addClose:hover{
+  background-color: white;
+  color: #fff
 }
 
 .bodyBot {
@@ -238,6 +302,14 @@ button {
     margin-bottom: 4%;
     background: gainsboro;
     color: black;
+    cursor: pointer;
+    width: 70%;
+    margin-left: 1vh
+}
+
+.deleteBtn:hover{
+  background-color: white;
+  color: #fff
 }
 
 .editForm {
@@ -258,8 +330,15 @@ button {
     margin-top: 2%;
     border: none;
     border-radius: 3px;
-    background: darkslategray;
+    background: #fff;
     color: white;
+    cursor: pointer;
+    width: 70%
+}
+
+.editSubmit:hover {
+    background-color: white;
+    color: #fff
 }
 
 .footerDiv {
@@ -267,9 +346,10 @@ button {
     grid-template-columns: 33% 33% 33%;
     place-items: center;
     padding: 2%;
-    background: darkslategray;
+    background: #fff;
     color: white;
     margin-bottom: 2%;
+    padding-top: 0.6%
 }
 
 .footerDiv > div {
@@ -279,9 +359,14 @@ button {
 }
 
 .footerIcon {
-    width: 2vw;
-    height: 4vh;
-    margin-left: 2.5px;
-    margin-right: 2.5px;
-    margin-top: -1vh;
+    max-width: 2.2vw;
+    max-height: 4vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-top: -.6vh;
+}
+
+.timestamp{
+  font-size: 70%;
+  margin-left: 1vh
 }
