@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+body {
+    margin: 0;
+    border-radius: 3px;
+    font-family: 'Oxygen', sans-serif;
+    background: beige;
+}
+
+button {
+    font-family: 'Oxygen', sans-serif;
+    background: darkslategray;
+    border-radius: 3px;
+    border: none;
+    width: 7vw;
+    height: 3vh;
+    color: white;
+}
+
+.smallContainer {
+    margin: 2%;
+}
+
+.headerDiv {
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    padding: 4%;
+    background: darkslategray;
+    color: white;
+    margin-top: 2%;
+
+}
+
+.nav {
+    display: flex;
+    padding: 2%;
+    background: darkslategray;
+    margin-top: 2%;
+    padding-bottom: 4%;
+}
+
+.userNav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+
+.greetUser {
+    color: white;
+}
+
+.logOutBtn {
+    border-radius: 3px;
+    background: gainsboro;
+    color: black;
+    height: 4vh;
+    width: 10vw;
+    margin-left: 2%;
+}
+
+.noUserNav {
+    color: white;
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+
+.registerBtn {
+    border-radius: 3px;
+    background: gainsboro;
+    border: none;
+    width: 10vw;
+    height: 4vh;
+    margin-top: 2%;
+}
+
+.loginBtn {
+    border-radius: 3px;
+    background: gainsboro;
+    border: none;
+    width: 10vw;
+    height: 4vh;
+    margin-top: 2%;
+}
+
+.calories {
+    text-align: center;
+    background: darkslategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 70vh;
+}
+
+.barChart {
+    display: flex;
+    height: 50vh;
+    width: 50vw;
+}
+
+.entries {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.entry {
+    background: darkslategray;
+    padding-left: 2.5%;
+    margin-top: 8%;
+    color: white;
+}
+
+.entryName {
+    text-align: center;
+}
+
+.imgOne {
+    width: 30vw;
+    height: 40vh;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.addBtn {
+    border: none;
+    border-radius: 3px;
+    background: darkslategray;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 30vw;
+    height: 3vh;
+}
+
+.addComp {
+    background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+}
+
+.addCompTextbox {
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
+
+.searchCals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.searchBtn {
+    border: none;
+    border-radius: 3px;
+    background: darkslategray;
+    color: white;
+    height: 3vh;
+    width: 10vw;
+    margin-top: 3%;
+}
+
+.calSearch {
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 50%;
+    padding: 2%;
+    background: darkslategray;
+    color: white;
+}
+
+.addForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.addFormField {
+    width: 30vw;
+    height: 4vh;
+}
+
+.addSubmit {
+    border: none;
+    border-radius: 3px;
+    background: darkslategray;
+    color: white;
+    height: 3vh;
+    width: 10vw;
+}
+
+.addClose {
+    border: none;
+    border-radius: 3px;
+    background: darkslategray;
+    width: 10vw;
+    height: 3vh;
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+}
+
+.bodyBot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.deleteBtn {
+    margin-bottom: 4%;
+    background: gainsboro;
+    color: black;
+}
+
+.editForm {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    align-items: center;
+}
+
+.editFormField {
+    width: 85%;
+    height: 2.5vh;
+}
+
+.editSubmit {
+    width: 50%;
+    height: 3vh;
+    margin-top: 2%;
+    border: none;
+    border-radius: 3px;
+    background: darkslategray;
+    color: white;
+}
+
+.footerDiv {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    place-items: center;
+    padding: 2%;
+    background: darkslategray;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.footerDiv > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerIcon {
+    width: 2vw;
+    height: 4vh;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-top: -1vh;
+}
