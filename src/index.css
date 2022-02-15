@@ -175,7 +175,7 @@ button {
 .addBtn {
     border: none;
     border-radius: 3px;
-    background: #fff;
+    background: #444444;
     margin-top: 2%;
     margin-bottom: 2%;
     width: 30vw;
@@ -184,7 +184,7 @@ button {
 }
 
 .addBtn:hover{
-  background-color: gainsboro;
+  background-color: rgb(2, 2, 2);
   color: #fff
 }
 
