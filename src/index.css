@@ -261,7 +261,7 @@ button {
     border: none;
     border-radius: 3px;
     background: #fff;
-    color: white;
+    color: rgb(27, 21, 21);
     height: 3vh;
     width: 50%;
     cursor: pointer
@@ -269,7 +269,7 @@ button {
 
 .addSubmit:hover{
   background-color: white;
-  color: #fff
+  color: rgb(26, 21, 21)
 }
 
 .addClose {
@@ -286,7 +286,7 @@ button {
 
 .addClose:hover{
   background-color: white;
-  color: #fff
+  color: rgb(20, 15, 15)
 }
 
 .bodyBot {
@@ -309,7 +309,7 @@ button {
 
 .deleteBtn:hover{
   background-color: white;
-  color: #fff
+  color: rgb(20, 16, 16)
 }
 
 .editForm {
@@ -331,13 +331,13 @@ button {
     border: none;
     border-radius: 3px;
     background: #fff;
-    color: white;
+    color: rgb(31, 26, 26);
     cursor: pointer;
     width: 70%
 }
 
 .editSubmit:hover {
-    background-color: white;
+    background-color: rgb(59, 53, 53);
     color: #fff
 }
 
