@@ -222,7 +222,7 @@ button {
     border: none;
     border-radius: 3px;
     background: #fff;
-    color: white;
+    color: rgb(24, 18, 18);
     height: 3vh;
     width: 50%;
     margin-top: 3%;
@@ -231,7 +231,7 @@ button {
 
 .searchBtn:hover{
   background-color: white;
-  color: #fff;
+  color: rgb(20, 16, 16);
 }
 
 .calSearch {
@@ -241,7 +241,7 @@ button {
     width: 50%;
     padding: 2%;
     background: #fff;
-    color: white;
+    color: rgb(17, 14, 14);
 }
 
 .addForm {
